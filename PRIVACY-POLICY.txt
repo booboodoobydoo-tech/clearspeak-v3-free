@@ -1,0 +1,169 @@
+================================================================================
+CLEARSPEAK V3 - PRIVACY POLICY
+================================================================================
+
+Effective Date: January 2025
+Last Updated: January 2025
+
+This Privacy Policy describes how ClearSpeak V3 ("the Software", "we", "our")
+handles your information when you use our application.
+
+================================================================================
+1. INFORMATION WE COLLECT
+================================================================================
+
+ClearSpeak V3 is a desktop application that runs entirely on your computer.
+We take your privacy seriously and have designed the Software to minimize data
+collection.
+
+INFORMATION STORED LOCALLY ON YOUR COMPUTER:
+- Application settings and preferences
+- Project files and audio recordings you create
+- API credentials (Google Cloud TTS, Gemini AI) that you provide
+- Application usage logs (stored locally, not transmitted)
+
+INFORMATION WE DO NOT COLLECT:
+- We do NOT collect personal information
+- We do NOT track your usage remotely
+- We do NOT sell or share any data
+- We do NOT use analytics or tracking services
+
+================================================================================
+2. HOW WE USE YOUR INFORMATION
+================================================================================
+
+All data created by or stored in ClearSpeak V3 remains on your local computer.
+
+YOUR DATA IS USED FOR:
+- Saving your application preferences
+- Storing your projects and recordings
+- Connecting to third-party services YOU configure (Google Cloud, Gemini AI)
+
+YOUR DATA IS NEVER:
+- Transmitted to our servers (we don't have any servers)
+- Shared with third parties (except services you explicitly configure)
+- Used for advertising or marketing
+- Sold or monetized in any way
+
+================================================================================
+3. THIRD-PARTY SERVICES
+================================================================================
+
+ClearSpeak V3 integrates with the following OPTIONAL third-party services.
+These services have their own privacy policies and data handling practices.
+
+GOOGLE CLOUD TEXT-TO-SPEECH (Optional):
+- If you provide Google Cloud credentials, the Software sends text to Google's
+  servers to generate speech audio
+- Google's Privacy Policy: https://policies.google.com/privacy
+- You control what data is sent by choosing what text to convert
+
+GOOGLE GEMINI AI (Optional):
+- If you provide a Gemini API key, the Software sends text to Google's AI
+  for text correction/improvement
+- Google's Privacy Policy: https://policies.google.com/privacy
+- You control what data is sent by choosing when to use AI correction
+
+ELEVENLABS (Optional):
+- If you provide ElevenLabs credentials, the Software sends text to ElevenLabs
+  for voice generation
+- ElevenLabs Privacy Policy: https://elevenlabs.io/privacy
+- You control what data is sent by choosing what text to convert
+
+IMPORTANT: These third-party services are OPTIONAL. ClearSpeak V3 will work
+without them. If you choose to use them, their respective privacy policies
+apply to data you send to their services.
+
+================================================================================
+4. DATA STORAGE AND SECURITY
+================================================================================
+
+WHERE YOUR DATA IS STORED:
+All ClearSpeak V3 data is stored locally on your computer at:
+
+- macOS: ~/Library/Application Support/clearspeak-v3/
+- Windows: %APPDATA%/clearspeak-v3/
+- Linux: ~/.config/clearspeak-v3/
+
+HOW YOUR DATA IS PROTECTED:
+- Sensitive credentials are encrypted using industry-standard encryption
+- Your data never leaves your computer unless you explicitly use third-party
+  services (Google Cloud, Gemini AI, ElevenLabs)
+- You can delete all application data by removing the directories above
+
+================================================================================
+5. YOUR RIGHTS AND CHOICES
+================================================================================
+
+YOU HAVE THE RIGHT TO:
+- View all data stored by ClearSpeak V3 (stored in the directories above)
+- Delete all application data at any time
+- Choose whether to use third-party services
+- Export your projects and recordings to any location
+- Use the Software without providing any personal information
+
+HOW TO DELETE YOUR DATA:
+1. Uninstall ClearSpeak V3
+2. Manually delete the application data folders listed in Section 4
+3. Delete any project files you created
+
+================================================================================
+6. CHILDREN'S PRIVACY
+================================================================================
+
+ClearSpeak V3 does not collect personal information from anyone, including
+children under 13. The Software can be used by children with parental
+supervision, but no data is collected or transmitted by us.
+
+================================================================================
+7. CHANGES TO THIS PRIVACY POLICY
+================================================================================
+
+We may update this Privacy Policy from time to time. Any changes will be
+included with future versions of the Software. Continued use of the Software
+after updates constitutes acceptance of the updated Privacy Policy.
+
+You can always view the current Privacy Policy by opening the PRIVACY-POLICY.txt
+file included with the Software.
+
+================================================================================
+8. OPEN SOURCE COMPONENTS
+================================================================================
+
+ClearSpeak V3 includes open-source third-party libraries (listed in
+package.json). These libraries may have their own privacy considerations.
+We do not control how these libraries operate, but they are used only for
+local functionality and do not transmit data.
+
+================================================================================
+9. CONTACT INFORMATION
+================================================================================
+
+If you have questions about this Privacy Policy or how ClearSpeak V3 handles
+your data, you can:
+
+- Review the source code behavior yourself (application is obfuscated but
+  behavior can be monitored using developer tools)
+- Check your network traffic to verify no data is transmitted to our servers
+- Contact: [Add your contact information if desired]
+
+================================================================================
+10. SUMMARY
+================================================================================
+
+In plain language:
+- ClearSpeak V3 runs entirely on your computer
+- We do NOT collect, store, or transmit your data
+- All data stays on your computer unless you use optional third-party services
+- You have full control over your data at all times
+- We do NOT have servers, analytics, tracking, or any remote data collection
+
+Your privacy is important to us. We built ClearSpeak V3 to respect your data
+and give you complete control.
+
+================================================================================
+
+Version: 3.17.0 (Free Edition)
+Copyright (c) 2025 Jonathon McDonald. All rights reserved.
+
+================================================================================
